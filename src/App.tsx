@@ -1,11 +1,11 @@
-import Landing from './views/Landing';
-// import Spire from './views/Spire';
+// import Landing from './views/Landing';
+import Spire from './views/Spire';
 
 function App() {
   return (
     <>
-      <Landing />
-      {/* <Spire /> */}
+      {/* <Landing /> */}
+      <Spire />
     </>
   );
 }
