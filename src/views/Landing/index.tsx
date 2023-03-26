@@ -5,7 +5,7 @@ import tw from 'twin.macro';
 // @ts-ignore
 import LandingImage from '../../assets/landing.png';
 
-const Container = tw.div`grid gap-4 h-[calc(100vh - 5rem)] items-center justify-center justify-items-center`;
+const Container = tw.div`grid gap-4 h-screen items-center justify-items-center text-center px-1 bg-gradient-to-b from-gray-400 to-gray-600`;
 
 const Title = tw.h1`text-5xl md:text-6xl font-bold text-yellow-400`;
 const Subtitle = tw.h2`text-3xl font-medium text-yellow-400`;
